@@ -15,9 +15,9 @@ function clock(){
     secs="0"+secs;
   }
 
-  document.getElementById('hour').innerHTML = hours+":";
-  document.getElementById('minute').innerHTML = mins+":";
-  document.getElementById('second').innerHTML = secs;
+  document.getElementById('hour').innerHTML = hours;
+  document.getElementById('minute').innerHTML = ":" +mins;
+  document.getElementById('second').innerHTML = ":" +secs;
 }
 
 setInterval(clock, 100);
