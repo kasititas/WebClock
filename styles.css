@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background:url("./images/clockPattern.jpg");
+}
+
+.main{
+  background: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.badge{
+  width: 95px;
+  background: #e66357;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 38%;
+  border-radius: 5px;
+}
+
+.clock{
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top:25px;
+  font-family: Luckiest Guy;
+  border-radius: 5px;
+}
